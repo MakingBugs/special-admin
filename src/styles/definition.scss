@@ -1,0 +1,45 @@
+// 一些公共部分的修改
+
+
+.el-table{
+    text-align: center;
+}
+/*table表头加背景色 */
+.el-table__header thead th {
+    background-color: #fbfbfb !important;
+}
+/* 弹窗 */
+.el-dialog {
+    .el-dialog__header{
+        border-bottom: 1px solid #efefef;
+    }
+    .el-dialog__body{
+        // max-height: 720px;
+        max-height: 580px;
+        overflow: auto;
+        padding:20px;
+    }
+    .el-dialog__footer{
+        padding-top:0;
+    }
+}
+/* 搜索框 */
+.search-bar{
+    overflow: hidden;
+}
+.el-input__inner{
+    padding: 0 10px;
+}
+/* 新增框 */
+.tools-bar{
+margin-bottom:20px;
+}
+/* 分页 */
+.pagination-bar{
+margin-top:10px;
+text-align: right;
+}
+//地图搜索
+.tangram-suggestion-main{
+    z-index: 999999;
+}
